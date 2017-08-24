@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+.cat-wrapper {
+    z-index: 1;
+    background-color: #e8461e;
+    height: 33vh;
+    margin: 24px -11px 0px -11px
+}
+
+.catMain {
+    margin-top: 50px;
+    margin: auto;
+    width: 475px;
+}
+
+.catMain img {
+    width: 100%;
+    margin-top: -89px;
+    margin-left: 95px;
+}
+
+.catMain p {
+    cursor: pointer;
+    margin-top: -250px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #efd5c9;
+    text-shadow: -1px -1px 0px #7f716a, 1px 1px 0px white;
+    font-family: anton;
+    font-size: 54px;
+}
+
+.catMain .name {
+    /*display: none;*/
+    margin-top: -220px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #efd5c9;
+    text-shadow: -1px -1px 0px #7f716a, 1px 1px 0px white;
+    font-family: anton;
+    font-size: 20px;
+}
+
+
+/***********MEDIUM***************/
+
+@media (min-width: 725px) {
+    .wrapper {
+        z-index: 1;
+        background-color: #e8461e;
+        height: 33vh;
+        margin: 24px -11px 0px -11px
+    }
+    .catMain {
+        margin-top: 50px;
+        margin: auto;
+        width: 475px;
+    }
+    .catMain img {
+        width: 100%;
+        margin-top: -89px;
+        margin-left: 95px;
+    }
+    .catMain p {
+        cursor: pointer;
+        margin-top: -250px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #efd5c9;
+        text-shadow: -1px -1px 0px #7f716a, 1px 1px 0px white;
+        font-family: anton;
+        font-size: 54px;
+    }
+    .catMain .name {
+        /*display: none;*/
+        margin-top: -220px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #efd5c9;
+        text-shadow: -1px -1px 0px #7f716a, 1px 1px 0px white;
+        font-family: anton;
+        font-size: 20px;
+    }
+}
+
+
+/*++++++++++full-size++++++++++++*/
+
+@media (min-width: 950px) {
+    body {
+        background-color: orange;
+    }
+    .wrapper {
+        z-index: 1;
+        background-color: #e8461e;
+        height: 33vh;
+        margin: 24px -11px 0px -11px
+    }
+    .catMain {
+        margin-top: 50px;
+        margin: auto;
+        width: 710px;
+    }
+    .catMain img {
+        width: 100%;
+        margin-top: -215px;
+        margin-left: 130px;
+    }
+    .catMain p {
+        cursor: pointer;
+        margin-top: -356px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #efd5c9;
+        text-shadow: -1px -1px 0px #7f716a, 1px 1px 0px white;
+        font-family: anton;
+        font-size: 54px;
+    }
+    .catMain .name {
+        /*display: none;*/
+        margin-top: -350px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #efd5c9;
+        text-shadow: -1px -1px 0px #7f716a, 1px 1px 0px white;
+        font-family: anton;
+        font-size: 34px;
+    }
+}

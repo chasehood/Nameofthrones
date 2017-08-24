@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+/*++++++++++IPHONE 6++++++++++++*/
+
+body {
+    background-color: orange;
+}
+
+.home {
+    font-family: anton;
+    color: #e8461e;
+    text-shadow: -1px -1px 0px #5b2318, 1px 1px 0px #e2775f;
+}
+
+.wrapper {
+    z-index: 1;
+    background-color: #e8461e;
+    height: 33vh;
+    margin: 12px -11px 0px -11px
+}
+
+.boneMain {
+    margin-top: 30px;
+    margin: auto;
+    width: 310px;
+}
+
+.boneMain img {
+    width: 100%;
+    margin-top: 31px;
+}
+
+.boneMain p {
+    cursor: pointer;
+    margin-top: -116px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #efd5c9;
+    text-shadow: -1px -1px 0px #7f716a, 1px 1px 0px white;
+    font-family: anton;
+    font-size: 54px;
+}
+
+.boneMain .name {
+    margin-top: -110px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #efd5c9;
+    text-shadow: -1px -1px 0px #7f716a, 1px 1px 0px white;
+    font-family: anton;
+    font-size: 34px;
+}
+
+
+/*+++++++++++IPAD+++++++++++*/
+
+@media ( min-width: 600px) {
+    .wrapper {
+        z-index: 1;
+        background-color: #e8461e;
+        ;
+        margin: 12px -11px 0px -11px;
+    }
+    .boneMain {
+        width: 480px;
+    }
+    .boneMain img {
+        margin-top: 12px;
+    }
+    .boneMain p {
+        margin-top: -180px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #efd5c9;
+        text-shadow: -1px -1px 0px #7f716a, 1px 1px 0px white;
+        font-family: anton;
+        font-size: 90px;
+    }
+    .boneMain .name {
+        margin-top: -150px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #efd5c9;
+        text-shadow: -1px -1px 0px #7f716a, 1px 1px 0px white;
+        font-family: anton;
+        font-size: 30px;
+    }
+}
+
+
+/*+++++++++FULL SCREEN++++++++++*/
+
+@media (min-width: 800px) {
+    .wrapper {
+        z-index: 1;
+        background-color: #e8461e;
+        width: 101%;
+        margin: 265px -11px 0px -11px;
+    }
+    .boneMain {
+        width: 500px;
+    }
+    .boneMain img {
+        margin-top: 9px;
+    }
+    .boneMain p {
+        margin-top: -187px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #efd5c9;
+        text-shadow: -1px -1px 0px #7f716a, 1px 1px 0px white;
+        font-family: anton;
+        font-size: 91px;
+    }
+    .boneMain .name {
+        margin-top: -159px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #efd5c9;
+        text-shadow: -1px -1px 0px #7f716a, 1px 1px 0px white;
+        font-family: anton;
+        font-size: 35px;
+    }
+}
+
+
+/*home page stuff*/
+
+.animals {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.cat,
+.dog {
+    height: 30vh;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.home {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
