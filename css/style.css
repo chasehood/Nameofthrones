@@ -140,7 +140,7 @@ body {
 .home-container {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+        margin: 165px 0 68px 0;
 }
 
 .home {
@@ -148,6 +148,7 @@ body {
 }
 
 a {
+    z-index: 5;
     text-decoration: none;
     color: inherit;
 }
